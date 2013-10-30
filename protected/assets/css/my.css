@@ -1,0 +1,5 @@
+/*override bootstrap*/
+.label,
+.badge {
+  line-height: 20px;
+}
