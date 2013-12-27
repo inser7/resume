@@ -26,6 +26,20 @@
 		 <?php echo $model->info->exp ?>
 		</span>
 </p>
+<br />
+<!-- <div class=""> -->
+	<ul id="skill">
+					<li><span class="thebar progressdefault" style="width:100%;"></span>
+					<h3>HTML / CSS 100%</h3>
+					</li>
+					<li><span class="thebar progressblue" style="width:80%;"></span>
+					<h3>PHP 80%</h3>
+					</li><li><span class="thebar progressorange" style="width:60%;"></span>
+					<h3>JS 	60%</h3>
+					</li><li><span class="thebar progressgreen" style="width:90%;"></span>
+					<h3>SQL 90%</h3>
+				</li></ul>
+<!-- </div> -->
 <hr>
 <h2>
 	<div id="exp">Опыт работы</div>

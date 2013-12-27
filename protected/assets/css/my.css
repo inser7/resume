@@ -3,3 +3,82 @@
 .badge {
   line-height: 20px;
 }
+
+.titleborder div {
+	display:inline-block;
+	background-color:#fff;
+	padding:1px 12px;
+	position:relative;
+}
+.titleborder div {
+	color:#444;
+	font-size:18px;
+	top:14px;
+	padding-left:0 !important;
+	font-family:open_sansbold;
+	text-transform:uppercase;
+}
+.titleborder {
+	position:relative;
+	border-bottom:medium double #f6f6f6;
+	margin-bottom:30px;
+}
+
+/* =========================================================== */
+/* Skills /* 
+============================================================== */
+ul#skill {
+	list-style:none;
+	margin-left: 0
+}
+#skill {
+	list-style:none;
+	font-size:12px;
+	position:relative;
+	line-height:2em;
+}
+#skill li {
+	margin-bottom:25px;
+	height:40px;
+	background:#f5f5f5;
+}
+#skill li:last-child {
+	margin-bottom:0px;
+}
+#skill li h3 {
+	position:relative;
+	font-size:14px;
+	color:#fff;
+	padding-left:10px;
+	font-weight:normal;
+	margin-top:0;
+	padding:13px;
+	display:inline;
+}
+#skill i {
+	background:#e7402f;
+	color:#fff;
+	padding:13px 12px 13px;
+	margin-left:-13px;
+	margin-right:10px;
+}
+.thebar {
+	height:40px;
+	position:absolute;
+	width:100%;
+}
+.progressdefault {
+	background-color:#444;
+}
+.progresspink {
+	background-color:#f674a4
+}
+.progressorange {
+	background:orange
+}
+.progressgreen {
+	background-color:#a1ce5b
+}
+.progressblue {
+	background-color:#0E8FAB
+}
