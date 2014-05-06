@@ -22,7 +22,7 @@
 		Специализация  <span class="badge badge-info"><?php echo $model->info->profession; ?></span><br />
        <!--  Career Objectives:  <?php echo $model->info->quality ?>
 		<br /> -->
-        Опыт:  <span class="badge badge-info">
+        Опыт:  <span>
 		 <?php echo $model->info->exp ?>
 		</span>
 </p>

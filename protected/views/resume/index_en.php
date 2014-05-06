@@ -22,7 +22,7 @@
 		Speciality:  <span class="badge badge-info"><?php echo $model->info->profession; ?></span><br />
         Career Objectives:  <?php echo $model->info->quality ?>
 		<br />
-        Technology:  <span class="badge badge-info">
+        Technology:  <span>
 		 <?php echo $model->info->exp ?>
 		</span>
 </p>
