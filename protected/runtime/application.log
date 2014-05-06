@@ -7043,3 +7043,354 @@ in C:\OpenServer\domains\kols\index.php (12)
 in C:\OpenServer\domains\kols\protected\views\resume\index_ru.php (34)
 in C:\OpenServer\domains\kols\protected\controllers\ResumeController.php (31)
 in C:\OpenServer\domains\kols\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "log" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "clientScript" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "assetManager" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "request" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "user" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "session" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "securityManager" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "db" application component
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_info`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_info`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`username` AS `t0_c1`, `t`.`password` AS `t0_c2`, `t`.`salt` AS `t0_c3`, `t`.`email` AS `t0_c4`, `t`.`profile` AS `t0_c5`, `info`.`id` AS `t1_c0`, `info`.`lang` AS `t1_c1`, `info`.`fio` AS `t1_c2`, `info`.`telephone` AS `t1_c3`, `info`.`jabber` AS `t1_c4`, `info`.`email` AS `t1_c5`, `info`.`skype` AS `t1_c6`, `info`.`icq` AS `t1_c7`, `info`.`university` AS `t1_c8`, `info`.`study_per` AS `t1_c9`, `info`.`diploma` AS `t1_c10`, `info`.`urluni` AS `t1_c11`, `info`.`unicountry` AS `t1_c12`, `info`.`maintitle` AS `t1_c13`, `info`.`namepage` AS `t1_c14`, `info`.`profession` AS `t1_c15`, `info`.`quality` AS `t1_c16`, `info`.`exp` AS `t1_c17`, `info`.`owner_id` AS `t1_c18` FROM `tbl_user` `t`  LEFT OUTER JOIN `tbl_info` `info` ON (`info`.`owner_id`=`t`.`id`) AND (lang='ru')  WHERE (`t`.`id`=1)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (4)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.ar.CActiveRecord] lazy loading User.work
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_work`
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_work`
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `work`.`id` AS `t1_c0`, `work`.`namecompany` AS `t1_c1`, `work`.`lang` AS `t1_c2`, `work`.`urlcompany` AS `t1_c3`, `work`.`countrycompany` AS `t1_c4`, `work`.`position` AS `t1_c5`, `work`.`respon` AS `t1_c6`, `work`.`period` AS `t1_c7`, `work`.`pub_date` AS `t1_c8`, `work`.`user_id` AS `t1_c9` FROM `tbl_work` `work`  WHERE (lang='ru') AND (`work`.`user_id`=:ypl0) ORDER BY work.pub_date DESC
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "log" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "request" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/01/07 03:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\OpenServer\domains\resume\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\resume\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\resume\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\resume\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "user" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "session" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "securityManager" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/01/07 03:12:27 [trace] [system.CModule] Loading "statePersister" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/05/07 01:02:09 [trace] [system.CModule] Loading "log" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:09 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:09 [trace] [system.CModule] Loading "clientScript" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:09 [trace] [system.CModule] Loading "assetManager" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:02:09 [trace] [system.CModule] Loading "request" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:02:10 [trace] [system.CModule] Loading "urlManager" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:11 [trace] [system.CModule] Loading "user" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:11 [trace] [system.CModule] Loading "session" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:11 [trace] [system.CModule] Loading "securityManager" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:12 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:12 [trace] [system.CModule] Loading "db" application component
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'kolcov'' in C:\OpenServer\domains\resume\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\OpenServer\domains\resume\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\OpenServer\domains\resume\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\OpenServer\domains\resume\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\OpenServer\domains\resume\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\OpenServer\domains\resume\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\OpenServer\domains\resume\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 C:\OpenServer\domains\resume\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 C:\OpenServer\domains\resume\protected\controllers\ResumeController.php(20): CActiveRecord->findByPk(1)
+#8 C:\OpenServer\domains\resume\framework\web\actions\CInlineAction.php(49): ResumeController->actionIndex()
+#9 C:\OpenServer\domains\resume\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\resume\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\resume\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\resume\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\OpenServer\domains\resume\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 C:\OpenServer\domains\resume\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\resume\index.php(12): CApplication->run()
+#16 {main}
+REQUEST_URI=/
+---
+2014/05/07 01:02:14 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "log" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "request" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:02:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in C:\OpenServer\domains\resume\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\resume\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OpenServer\domains\resume\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\resume\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/07 01:02:18 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/07 01:02:18 [trace] [system.CModule] Loading "user" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/05/07 01:02:18 [trace] [system.CModule] Loading "session" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/05/07 01:02:18 [trace] [system.CModule] Loading "securityManager" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/05/07 01:02:18 [trace] [system.CModule] Loading "statePersister" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+2014/05/07 01:06:30 [trace] [system.CModule] Loading "log" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:30 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:30 [trace] [system.CModule] Loading "assetManager" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:06:30 [trace] [system.CModule] Loading "request" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "user" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "session" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "securityManager" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "statePersister" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "db" application component
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_info`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_info`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`username` AS `t0_c1`, `t`.`password` AS `t0_c2`, `t`.`salt` AS `t0_c3`, `t`.`email` AS `t0_c4`, `t`.`profile` AS `t0_c5`, `info`.`id` AS `t1_c0`, `info`.`lang` AS `t1_c1`, `info`.`fio` AS `t1_c2`, `info`.`telephone` AS `t1_c3`, `info`.`jabber` AS `t1_c4`, `info`.`email` AS `t1_c5`, `info`.`skype` AS `t1_c6`, `info`.`icq` AS `t1_c7`, `info`.`university` AS `t1_c8`, `info`.`study_per` AS `t1_c9`, `info`.`diploma` AS `t1_c10`, `info`.`urluni` AS `t1_c11`, `info`.`unicountry` AS `t1_c12`, `info`.`maintitle` AS `t1_c13`, `info`.`namepage` AS `t1_c14`, `info`.`profession` AS `t1_c15`, `info`.`quality` AS `t1_c16`, `info`.`exp` AS `t1_c17`, `info`.`owner_id` AS `t1_c18` FROM `tbl_user` `t`  LEFT OUTER JOIN `tbl_info` `info` ON (`info`.`owner_id`=`t`.`id`) AND (lang='ru')  WHERE (`t`.`id`=1)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (4)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:32 [trace] [system.db.ar.CActiveRecord] lazy loading User.work
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_work`
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_work`
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:06:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `work`.`id` AS `t1_c0`, `work`.`namecompany` AS `t1_c1`, `work`.`lang` AS `t1_c2`, `work`.`urlcompany` AS `t1_c3`, `work`.`countrycompany` AS `t1_c4`, `work`.`position` AS `t1_c5`, `work`.`respon` AS `t1_c6`, `work`.`period` AS `t1_c7`, `work`.`pub_date` AS `t1_c8`, `work`.`user_id` AS `t1_c9` FROM `tbl_work` `work`  WHERE (lang='ru') AND (`work`.`user_id`=:ypl0) ORDER BY work.pub_date DESC
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "log" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "bootstrap" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "clientScript" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "assetManager" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "request" application component
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in C:\OpenServer\domains\resume\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "user" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "session" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:07 [trace] [system.CModule] Loading "securityManager" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.CModule] Loading "statePersister" application component
+in C:\OpenServer\domains\resume\protected\components\Controller.php (42)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.CModule] Loading "db" application component
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_info`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_info`
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`username` AS `t0_c1`, `t`.`password` AS `t0_c2`, `t`.`salt` AS `t0_c3`, `t`.`email` AS `t0_c4`, `t`.`profile` AS `t0_c5`, `info`.`id` AS `t1_c0`, `info`.`lang` AS `t1_c1`, `info`.`fio` AS `t1_c2`, `info`.`telephone` AS `t1_c3`, `info`.`jabber` AS `t1_c4`, `info`.`email` AS `t1_c5`, `info`.`skype` AS `t1_c6`, `info`.`icq` AS `t1_c7`, `info`.`university` AS `t1_c8`, `info`.`study_per` AS `t1_c9`, `info`.`diploma` AS `t1_c10`, `info`.`urluni` AS `t1_c11`, `info`.`unicountry` AS `t1_c12`, `info`.`maintitle` AS `t1_c13`, `info`.`namepage` AS `t1_c14`, `info`.`profession` AS `t1_c15`, `info`.`quality` AS `t1_c16`, `info`.`exp` AS `t1_c17`, `info`.`owner_id` AS `t1_c18` FROM `tbl_user` `t`  LEFT OUTER JOIN `tbl_info` `info` ON (`info`.`owner_id`=`t`.`id`) AND (lang='ru')  WHERE (`t`.`id`=1)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (20)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (4)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.ar.CActiveRecord] lazy loading User.work
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_work`
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_work`
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
+2014/05/07 01:07:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `work`.`id` AS `t1_c0`, `work`.`namecompany` AS `t1_c1`, `work`.`lang` AS `t1_c2`, `work`.`urlcompany` AS `t1_c3`, `work`.`countrycompany` AS `t1_c4`, `work`.`position` AS `t1_c5`, `work`.`respon` AS `t1_c6`, `work`.`period` AS `t1_c7`, `work`.`pub_date` AS `t1_c8`, `work`.`user_id` AS `t1_c9` FROM `tbl_work` `work`  WHERE (lang='ru') AND (`work`.`user_id`=:ypl0) ORDER BY work.pub_date DESC
+in C:\OpenServer\domains\resume\protected\views\resume\index_ru.php (48)
+in C:\OpenServer\domains\resume\protected\controllers\ResumeController.php (31)
+in C:\OpenServer\domains\resume\index.php (12)
