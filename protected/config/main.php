@@ -9,7 +9,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 
     'sourceLanguage'=>'en',
-    'language'=>'ru',
+    'language'=>'en',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'kolcov',
 
@@ -61,7 +61,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString'=>'sqlite:/home/ins7/develop/resume/protected/data/resumebase.db',
+			'connectionString'=>'sqlite:protected/data/resumebase.db',
             'tablePrefix'=>'tbl_',
 			// 'connectionString' => 'mysql:host=localhost;dbname=kolcov',
 			// 'emulatePrepare' => true,
