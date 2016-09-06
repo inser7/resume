@@ -23,9 +23,9 @@
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Experience', 'icon'=>'icon-tag', 'url'=>'#'),
-                array('label'=>'Education', 'icon'=>'icon-book', 'url'=>'#'),
-                array('label'=>'Contact', 'icon'=>'icon-user', 'url'=>'#'),
+                array('label'=>'Experience', 'icon'=>'icon-tag', 'url'=>'#exp'),
+                array('label'=>'Education', 'icon'=>'icon-book', 'url'=>'#study'),
+                array('label'=>'Contact', 'icon'=>'icon-user', 'url'=>'#link'),
             ),
         ),
        

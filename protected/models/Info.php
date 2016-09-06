@@ -65,7 +65,7 @@ class Info extends CActiveRecord
 			array('quality, exp', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, lang, fio, telephone, jabber, email, skype, icq, university, study_per, diploma, urluni, unicountry, maintitle, namepage, profession, quality, exp', 'safe', 'on'=>'search'),
+			array('id, lang, fio, telephone, jabber, email, skype, icq, linkedin, university, study_per, diploma, urluni, unicountry, maintitle, namepage, profession, quality, exp', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -94,6 +94,7 @@ class Info extends CActiveRecord
 			'email' => 'Email',
 			'skype' => 'Skype',
 			'icq' => 'Icq',
+			'linkedin' => 'Linkedin',
 			'university' => 'University',
 			'study_per' => 'Study Per',
 			'diploma' => 'Diploma',
@@ -132,6 +133,7 @@ class Info extends CActiveRecord
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('skype',$this->skype,true);
 		$criteria->compare('icq',$this->icq,true);
+		$criteria->compare('linkedin',$this->linkedin,true);
 		$criteria->compare('university',$this->university,true);
 		$criteria->compare('study_per',$this->study_per,true);
 		$criteria->compare('diploma',$this->diploma,true);

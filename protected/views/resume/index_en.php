@@ -19,12 +19,22 @@
 
 
 <p>
-		Speciality:  <span class="badge badge-info"><?php echo $model->info->profession; ?></span><br />
-        Career Objectives:  <?php echo $model->info->quality ?>
-		<br />
-        Technology:  <span>
-		 <?php echo $model->info->exp ?>
-		</span>
+		<?php if(!empty($model->info->profession)): ?>
+							Speciality:   <span class="badge badge-info"><?php echo $model->info->profession; ?></span><br />
+		<?php endif; ?>
+
+		<?php if(!empty($model->info->quality)): ?>
+							Career Objectives:  <?php echo $model->info->quality ?>
+							<br />
+		<?php endif; ?>
+
+		<?php if(!empty($model->info->exp)): ?>
+							   Summary skills:<br/>  <span>
+		 						<?php echo $model->info->exp ?>
+							</span>
+		<?php endif; ?>
+
+     
 </p>
 <br />
 <!-- <div class=""> -->
@@ -90,6 +100,10 @@
 								
       					<?php if(!empty($model->info->skype)): ?>
 							<dt>skype:</dt><dd><?php $model->info->skype ?></dd>
+						<?php endif; ?>
+
+						<?php if(!empty($model->info->linkedin)): ?>
+							<dt>linkedin:</dt><dd><?php echo "<a href=\"".$model->info->linkedin."\" target=\"_blank\">Sergey</a>" ?></dd>
 						<?php endif; ?>
   				</dl>
 			</p>        
