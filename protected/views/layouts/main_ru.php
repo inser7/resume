@@ -35,8 +35,8 @@
             'dropup'=>false,
             'items'=>array(
                array('label'=>'Язык', 'url'=>'#', 'items'=>array(
-                    array('label'=>'Англ', 'url'=>'/en/'),
-                    array('label'=>'Рус', 'url'=>'/ru/'),
+                    array('label'=>'Англ', 'url'=>'/resume/en'),
+                    array('label'=>'Рус', 'url'=>'/resume/ru'),
                 )),
                 ),
             ),
